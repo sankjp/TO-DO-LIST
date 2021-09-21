@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 2px 8px grey;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    background-color: springgreen;
+}
+.top-portion {
+    margin-top: 10px;
+    padding: 2px;
+}
+h1 {
+    text-align: center;
+}
+button {
+    margin-left: 10px;
+    background-color: rgb(101, 101, 223);
+}
+.input {
+    background-color: rgb(231, 220, 206);
+}
+#error {
+    color: red;
+}
+#box {
+    color: rgb(36, 13, 100);
+}
